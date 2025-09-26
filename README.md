@@ -23,22 +23,7 @@ This project integrates **appointment booking (ChatBot)** and **document-based Q
 
 ---
 
-## 🏗️ System Overview
 
-```mermaid
-flowchart LR
-    A[Client / Streamlit] --> B[/chat\n(Booking)]
-    A --> C[/documents/upload\n(Upload docs)]
-    A --> D[/rag/ask\n(Ask about docs)]
-
-    B --> E[agent.ChatBot]
-    C --> F[rag_app.RAGApp]
-    D --> F
-
-    F --> G[(Qdrant Vector DB)]
-```
-
----
 
 ## 📂 Project Structure
 
